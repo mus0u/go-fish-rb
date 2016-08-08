@@ -45,7 +45,6 @@ class Game
     @active_player.ask_for @opponent, guess
     @active_player.score_books!
     @completed_books.merge @active_player.books.keys
-    sleep 1
   end
 
   def handle_guess
